@@ -5,4 +5,4 @@ I also consolidated classes in order to eliminate redundancy and to simplify the
 
 ![Image of completed website appearance](./assets/01-html-css-git-homework-demo.png)
 
-![Link to completed website](https://maiavelli.github.io/Code-Refactor/)
+![link: https://maiavelli.github.io/Code_Refactor/](https://maiavelli.github.io/Code-Refactor/)
