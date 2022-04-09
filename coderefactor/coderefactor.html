@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+<!--changed website title from generic "website" to the name of the company-->
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/coderefactor.css">
     <title>Horiseon Social Solution Services</title>
 </head>
 
+ <!--implemented semantic HTML, changed divs to sections or aside-->
+ <!--added alt description to all images and icons-->
 <body>
     <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
@@ -24,11 +27,13 @@
             </ul>
         </section>
     </header>
+   
+    <!--added title to "hero" class to work as alt description for the background image-->
+    <section class="hero" title="team of people at a conference table looking at files"></section>
 
-    <section class="hero"></section>
-
+    <!--changed all classes for this section to main-content in order to simplify CSS file-->
     <section class="content">
-        <section class="search-engine-optimization">
+        <section class="main-content" id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" alt="desktop with laptop, coffee, pens, and a notebook that reads 'SEO.'" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -36,7 +41,7 @@
             </p>
         </section>
 
-        <section id="online-reputation-management" class="online-reputation-management">
+        <section class="main-content" id="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" alt="man holding phone and using a laptop that displays a chart that depicts repuation rising." class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
@@ -44,8 +49,8 @@
             </p>
         </section>
 
-        <section id="social-media-marketing" class="social-media-marketing">
-            <img src=".assets/images/social-media-marketing.jpg" alt="group at table with phones, laptops, and icons depicting various social media phrases" class="float-left" />
+        <section class="main-content" id="social-media-marketing">
+            <img src="./assets/images/social-media-marketing.jpg" alt="group at table with phones, laptops, and icons depicting various social media phrases" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
@@ -53,8 +58,9 @@
         </section>
     </section>
 
-    <aside class="benefits">
-        <section class="benefit-lead">
+    <!--renamed the aside class to "sidebar" for simplicity, and changed all section classes to "sidebar-content" in order to simplify CSS file-->
+    <aside class="sidebar">
+        <section class="sidebar-content">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="icon of a gear going through a funnel and a coin coming out the bottom of the funnel" />
             <p>
@@ -62,7 +68,7 @@
             </p>
         </section>
 
-        <section class="benefit-brand">
+        <section class="sidebar-content">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt="icon that looks like a man in suit with a lightbulb as his head" />
             <p>
@@ -70,7 +76,7 @@
             </p>
         </section>
 
-        <section class="benefit-cost">
+        <section class="sidebar-content">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" alt="icon containing three coins with $ sign and a gear"/>
             <p>
@@ -79,6 +85,7 @@
         </section>
     </aside>
 
+<!--implemented semantic html, changed from div container to footer-->
     <footer class="footer">
         <h4>Made with ❤️️ by Horiseon</h2>
         <p>
